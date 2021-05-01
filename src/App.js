@@ -106,6 +106,7 @@ class App extends React.Component {
       .collection('notes')
       .doc(note.id)
       .delete();
+      
   }
 }
   export default App;
